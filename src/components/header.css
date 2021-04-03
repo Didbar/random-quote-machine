@@ -62,3 +62,15 @@
 .header__text > span:first-child {
   border-radius: 5px 0 0 5px;
 }
+
+@media only screen and (max-width: 500px) {
+  .header {
+    font-size: 1.5rem;
+  }
+
+  .header__text > span {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+  }
+}
